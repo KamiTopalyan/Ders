@@ -1,8 +1,7 @@
-package classes.Car;
 
 public class Objects {
     public static void main(String[] args) {
-        Car kamiCar = new Car("Buggati", "Kami", 42);
+        Car kamiCar = new Car("Buggati", "Kami");
         Car alpCar = new Car("Lambo", "Alp", 0);
 
         // alpCar.sahip = "Kami";
@@ -49,4 +48,18 @@ class Car {
         this.sahip = sahip;
         this.mesafe = mesafe;
     }
+
+    public Car(String marka, String sahip) {
+        this.marka = marka;
+        this.sahip = sahip;
+    }
 }
+
+
+
+
+// f(x) = 2x 
+// 
+// f(5)=10
+// 
+// print (a + f(5))

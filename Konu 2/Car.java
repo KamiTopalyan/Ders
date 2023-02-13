@@ -25,4 +25,9 @@ public class Car {
         this.sahip = sahip;
         this.mesafe = mesafe;
     }
+
+    public Car(String marka, String sahip) {
+        this.marka = marka;
+        this.sahip = sahip;
+    }
 }
